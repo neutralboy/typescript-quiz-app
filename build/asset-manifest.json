@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/typescript-quiz-app/static/css/main.9757329f.chunk.css",
+    "main.js": "/typescript-quiz-app/static/js/main.a902afc6.chunk.js",
+    "main.js.map": "/typescript-quiz-app/static/js/main.a902afc6.chunk.js.map",
+    "runtime-main.js": "/typescript-quiz-app/static/js/runtime-main.4640ace8.js",
+    "runtime-main.js.map": "/typescript-quiz-app/static/js/runtime-main.4640ace8.js.map",
+    "static/css/2.69429974.chunk.css": "/typescript-quiz-app/static/css/2.69429974.chunk.css",
+    "static/js/2.e915cfb7.chunk.js": "/typescript-quiz-app/static/js/2.e915cfb7.chunk.js",
+    "static/js/2.e915cfb7.chunk.js.map": "/typescript-quiz-app/static/js/2.e915cfb7.chunk.js.map",
+    "index.html": "/typescript-quiz-app/index.html",
+    "precache-manifest.446e2ff2b29f3df07eb547f3e6e21b2c.js": "/typescript-quiz-app/precache-manifest.446e2ff2b29f3df07eb547f3e6e21b2c.js",
+    "service-worker.js": "/typescript-quiz-app/service-worker.js",
+    "static/css/2.69429974.chunk.css.map": "/typescript-quiz-app/static/css/2.69429974.chunk.css.map",
+    "static/css/main.9757329f.chunk.css.map": "/typescript-quiz-app/static/css/main.9757329f.chunk.css.map",
+    "static/js/2.e915cfb7.chunk.js.LICENSE.txt": "/typescript-quiz-app/static/js/2.e915cfb7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4640ace8.js",
+    "static/css/2.69429974.chunk.css",
+    "static/js/2.e915cfb7.chunk.js",
+    "static/css/main.9757329f.chunk.css",
+    "static/js/main.a902afc6.chunk.js"
+  ]
+}
