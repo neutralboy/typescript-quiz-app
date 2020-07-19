@@ -9,21 +9,30 @@ type Props = {
     userAnswer: AnswerObject | undefined;
     questionNr: number;
     totalQuestions: number;
+    score: number;
 }
 
 const Question: React.FC<Props> = ({
-     question, answers, callback, userAnswer, questionNr, totalQuestions
+     question, answers, callback, userAnswer, questionNr, totalQuestions, score
     }) => {
     return (
         <div>
-            <p className="number">
-                Question: {questionNr} / {totalQuestions}
-            </p>
-            <p dangerouslySetInnerHTML={{ __html: question }} />
-            <div>
+            <div className="header option">
+                <div className="is-left">
+                    <p className="number">
+                        {questionNr} / {totalQuestions}
+                    </p>
+                </div>
+                <div className="is-right">
+                    <p className="score">{score}</p>
+                </div>
+            </div>
+
+            <h2 dangerouslySetInnerHTML={{ __html: question }} />
+            <div className="option">
                 {answers.map(e=>
-                    <div key={Math.random()}>
-                        <button value={e} disabled={!!userAnswer} onClick={callback} >
+                    <div className="option">
+                        <button className="is-medium is-fullwidth is-size-5" key={Math.random()} value={e} disabled={!!userAnswer} onClick={callback} >
                             <span dangerouslySetInnerHTML={{ __html: e }} />
                         </button>
                     </div>
